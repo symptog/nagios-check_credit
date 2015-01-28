@@ -30,7 +30,7 @@ define command{
 }
 ```
 
-all paramters are optional
+all parameters are optional
 
 ## Help
 
