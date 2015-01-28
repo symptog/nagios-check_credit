@@ -56,7 +56,7 @@ def get_balance(device):
 try:
     f = open(args.smsconf, 'r')
     for line in f:
-        if re.match('device', line) and args.device is None:
+        if re.match('devices', line) and args.device is None:
             tmp = line.split('=')
             devices = [x.strip() for x in tmp[1].split(',')]
             if args.verbose:
