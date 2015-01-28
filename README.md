@@ -33,6 +33,8 @@ define command{
 all paramters are optional
 
 ## Help
+
+```
 usage: check_balance [-h] [--verbose] [-c CRITICAL] [-w WARNING] [-s SMSCONF]
                      [-d DEVICE] [-currency CURRENCY]
 
@@ -46,3 +48,4 @@ optional arguments:
   -s SMSCONF          SMSTools3 Config Path eg. /etc/smsd.conf
   -d DEVICE           Device eg. GSM1
   -currency CURRENCY  Currency eg. EUR
+```
