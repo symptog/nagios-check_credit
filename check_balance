@@ -1,7 +1,11 @@
 #!/usr/bin/python
 #
-# This Nagios plugin checks the credit of prepaid-answer from SMStools3
+# This Nagios/Icinga plugin checks the credit of prepaid-answer from SMStools3
 #
+# Author: Tobias Gall <tobias.gall@mailbox.org>
+# Licence: MIT
+
+
 import re
 import argparse
 
