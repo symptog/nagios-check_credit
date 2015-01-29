@@ -11,19 +11,11 @@ Attention: not tested for multiple devices in smsd.conf!
 
 ## Install
 
-Copy `GMS1.sh`
-```
-cp GSM1.sh /opt/sms/regular_run/GSM1.sh
-chown -R smsd:smsd /opt/sms
-```
-
 Append to `/etc/smsd.conf`
 ```
-regular_run = /opt/sms/regular_run/GSM1.sh
+regular_run_cmd = AT+CUSD=1,"*100#"
 regular_run_interval = 43200
-regular_run_post_run = /opt/sms/regular_run/GSM1.sh
-regular_run_cmdfile = /opt/sms/regular_run/GSM1.cmdfile
-regular_run_statfile = /opt/sms/regular_run/GSM1.statfile
+regular_run_statfile = /var/log/smstools/smsd_stats/GSM1.balance
 ```
 
 Copy `check_credit` to your Nagios/Icinga Plugins
