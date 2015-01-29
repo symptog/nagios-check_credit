@@ -94,7 +94,7 @@ else:
     ret = ''
     for device in devices:
         ret += device + ': '
-        balance = get_balance(device)
+        balance, date = get_balance(device)
         if balance <= args.critical:
             ret += 'Critical - Credit: ' + str(balance) + ' ' + args.currency + ' - Date: ' + date
             crit = True
