@@ -11,8 +11,10 @@ Attention: not tested for multiple devices in smsd.conf!
 
 ## Install
 
-Append to `/etc/smsd.conf`
+Append to `/etc/smsd.conf` in the device section
 ```
+[GSM1]
+...
 regular_run_cmd = AT+CUSD=1,"*100#"
 regular_run_interval = 43200
 regular_run_statfile = /var/log/smstools/smsd_stats/GSM1.balance
