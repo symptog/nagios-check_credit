@@ -3,9 +3,9 @@ Nagios/Icinga Plugin - Check Prepaid Credit using SMSTools3
 
 Based on http://smstools3.kekekasvi.com/topic.php?id=320
 
-SMSTools Installation:
-https://www.thomas-krenn.com/de/wiki/SMS_Server_Tools
-https://www.thomas-krenn.com/de/wiki/SMS_Benachrichtigungen_mit_Icinga
+SMSTools Installation (german):
+* https://www.thomas-krenn.com/de/wiki/SMS_Server_Tools
+* https://www.thomas-krenn.com/de/wiki/SMS_Benachrichtigungen_mit_Icinga
 
 Attention: not tested for multiple devices in smsd.conf!
 
