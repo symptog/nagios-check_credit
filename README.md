@@ -20,7 +20,7 @@ regular_run_interval = 43200
 regular_run_statfile = /var/log/smstools/smsd_stats/GSM1.balance
 ```
 
-Copy `check_credit` to your Nagios/Icinga Plugins
+Copy `check_balance` to your Nagios/Icinga Plugins
 
 Append to Nagios/Icinga Commandfile
 ```
